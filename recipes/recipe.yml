@@ -30,5 +30,3 @@ modules:
           - org.kde.kcalc
           - org.kde.okular
           - org.kde.ark
-
-  - type: signing
