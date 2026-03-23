@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: AuraOS
+name: auraos
 description: AuraOS
 
 base-image: ghcr.io/blue-build/base-images/fedora-kinoite
