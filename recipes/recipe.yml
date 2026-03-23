@@ -3,7 +3,7 @@ name: AuraOS
 description: AuraOS
 
 base-image: ghcr.io/ublue-os/kinoite-main
-image-version: 42
+image-version: 41
 
 modules:
   - type: files
