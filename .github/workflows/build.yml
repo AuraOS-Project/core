@@ -36,7 +36,5 @@ jobs:
           recipe: ${{ matrix.recipe }}
           registry_token: ${{ github.token }}
           pr_event_number: ${{ github.event.number }}
-          # ŞU İKİ SATIR HAYAT KURTARACAK:
-          cosign_private_key: ""
           maximize_build_space: true
-          cosign: false
+          build_opts: "--no-sign"
